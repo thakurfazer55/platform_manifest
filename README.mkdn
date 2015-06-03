@@ -1,6 +1,9 @@
 Welcome to TipsyOs
 ===================
 
+This is just my testing ground
+I wanted a place to test and learn, so i created this to play around a bit when i'm waiting for other shit to build.
+I'm usually tipsy wwhen i do this, so thats why its named that way.
 
 Getting Started
 ---------------
