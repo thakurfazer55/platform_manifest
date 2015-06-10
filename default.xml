@@ -411,7 +411,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="lp5.1" />
   <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="lp5.1" />
-  <project path="packages/apps/DeskClock" name="Tesla-Redux/packages_apps_DeskClock" remote="github" revision="lp5.1" />
+  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.1" />
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="lp5.1" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="lp5.1" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="lp5.1" />
@@ -551,7 +551,9 @@
 
   <!-- CyanogenMod -->
   <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" revision="cm-12.1" />
+
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />
 
   <!-- New Additions for Tipsy -->
   <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="lp5.1" />
