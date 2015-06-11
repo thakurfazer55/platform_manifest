@@ -460,7 +460,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.1" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="lp5.1" />
+  <project path="packages/services/Telephony" name="TipsyOS/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -558,10 +558,10 @@
   <!-- New Additions for Tipsy -->
   <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="lp5.1" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="to" revision="lp5.1" />
-  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="to" revision="lp5.1" /> 
 
-  <!-- Slim file manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.1" />
+  <!-- Kernel Adiutor -->
+  <!--project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="to" revision="lp5.1" /--> 
+  <!--project path="packages/apps/FloatingActionButton" name="Tesla-Redux/android-floating-action-button" remote="github" revision="lp5.1" /-->
 
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
