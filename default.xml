@@ -561,6 +561,11 @@
   <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="lp5.1" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="to" revision="lp5.1" />
 
+  <!-- Tipsy Scripts -->
+  <project path="script" name="BuildScripts" remote="to" revision="master" >
+     <copyfile src="build_rom.sh" dest="build_rom.sh" />
+  </project>
+
   <!-- Kernel Adiutor -->
   <!--project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="to" revision="lp5.1" /--> 
   <!--project path="packages/apps/FloatingActionButton" name="Tesla-Redux/android-floating-action-button" remote="github" revision="lp5.1" /-->
