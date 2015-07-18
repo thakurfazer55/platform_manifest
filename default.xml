@@ -555,6 +555,8 @@
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />
 
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
+
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/v8" name="CyanogenMod/android_external_chromium_org_v8" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" remote="github" revision="cm-12.1" />
