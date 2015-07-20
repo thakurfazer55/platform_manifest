@@ -577,6 +577,9 @@
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
 
+  <!-- SlimWallpaperPicker -->
+  <project path="packages/apps/WallpaperPicker" name="TipsyOs/packages_apps_WallpaperPicker" remote="github" revision="lp5.1" />
+
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="lp5.1" />
 
