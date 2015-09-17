@@ -19,7 +19,7 @@
   <remote  name="to"
            fetch="git://github.com/TipsyOs/"/>
 
-  <default revision="refs/tags/android-5.1.1_r16"
+  <default revision="refs/tags/android-5.1.1_r18"
            remote="aosp"
            sync-j="4" />
 
