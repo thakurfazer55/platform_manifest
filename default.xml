@@ -603,9 +603,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="martinusbe/arm-eabi-4.9" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-sm" name="martinusbe/arm-eabi-5.1" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-sm" name="xanaxdroid/arm-eabi-5.2" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="martinusbe/arm-linux-androideabi-4.8" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="martinusbe/arm-linux-androideabi-4.9" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-sm" name="martinusbe/arm-linux-androideabi-5.1" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-sm" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-sm" name="martinusbe/aarch64-linux-android-4.9" remote="bb" revision="sabermod" />
 
   <!-- DashClock widget -->
