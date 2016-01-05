@@ -15,7 +15,7 @@
            fetch="https://github.com/TipsyOs"
            revision="6.0" />
 
-  <default revision="refs/tags/android-6.0.1_r3"
+  <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
            sync-j="4" />
 
