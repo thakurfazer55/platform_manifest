@@ -11,13 +11,20 @@
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
 
+  <remote  name="tipsy"
+           fetch="https://github.com/TipsyOs"
+           revision="6.0" />
+
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-j="4" />
 
+<!-- Tipsy stuff -->
   <project path="build" name="build" remote="aospb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
   <project path="bionic" name="bionic" remote="aospb" />
@@ -267,7 +274,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="frameworks_av" remote="aospb" />
-  <project path="frameworks/base" name="frameworks_base" remote="aospb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
