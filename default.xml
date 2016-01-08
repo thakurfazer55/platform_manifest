@@ -22,12 +22,16 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Tipsy stuff -->
+  <!-- Tipsy stuff -->
   <project path="build" name="tipsy_build" remote="tipsy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
+
+  <!-- Tipsy Additions  -->
+  <project path="packages/apps/Messaging" name="TipsyOs/packages_apps_Messaging" remote="tipsy" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
@@ -399,7 +403,6 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospb" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aospb" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospb" groups="apps_nfc,pdk-fs" />
@@ -505,9 +508,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="manifest" name="platform_manifest" remote="tipsy" />
-
-  <!-- New Additions for Tipsy -->
-  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
