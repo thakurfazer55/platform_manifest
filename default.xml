@@ -20,7 +20,7 @@
            sync-j="4" />
 
 <!-- Tipsy stuff -->
-  <project path="build" name="build" remote="aospb" >
+  <project path="build" name="tipsy_build" remote="tipsy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
@@ -501,10 +501,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="aospb" />
+  <project path="manifest" name="platform_manifest" remote="tipsy" />
 
-  <!-- New Additions for slim -->
-  <project path="vendor/aospb" name="vendor_aospb" remote="aospb" />
+  <!-- New Additions for Tipsy -->
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
