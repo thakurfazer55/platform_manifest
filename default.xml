@@ -31,7 +31,10 @@
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
   <!-- Tipsy Additions  -->
-  <project path="packages/apps/Messaging" name="TipsyOs/packages_apps_Messaging" remote="tipsy" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
+  <project path="packages/apps/SnapdragonCamera" name="TipsyOs/android_packages_apps_SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
