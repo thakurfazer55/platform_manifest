@@ -26,6 +26,7 @@
   <project path="build" name="tipsy_build" remote="tipsy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="android_bionic" remote="tipsy" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tipsy" />
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
@@ -43,7 +44,6 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
-  <project path="bionic" name="android_bionic" remote="tipsy" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
