@@ -42,6 +42,10 @@
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
 
+  <!-- Telephony -->
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tipsy" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
@@ -314,7 +318,6 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aospb" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aospb" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
@@ -443,7 +446,6 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="packages_services_Mms" remote="aospb" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aospb" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aospb" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
