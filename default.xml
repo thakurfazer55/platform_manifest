@@ -45,6 +45,7 @@
   <!-- Telephony -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="tipsy" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="tipsy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tipsy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tipsy" />
 
@@ -439,7 +440,6 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aospb" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aospb" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospb" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
