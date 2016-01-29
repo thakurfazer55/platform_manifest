@@ -54,6 +54,10 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tipsy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tipsy" />
 
+  <!-- Ril -->
+  <project path="hardware/ril" name="hardware_ril" remote="tipsy" />
+  <project path="hardware/ril-caf" name="hardware_ril" remote="tipsy" revision="6.0-caf" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
@@ -390,8 +394,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aospb" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="aospb" revision="mm6.0-caf" />
-  <project path="hardware/ril" name="hardware_ril" remote="aospb" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="aospb" revision="mm6.0-caf" />
   <project path="libcore" name="libcore" remote="aospb" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
