@@ -90,7 +90,7 @@ Initialize TipsyOs build environment:
 
 Open Terminal
 ```
-mkdir tesla && cd tesla
+mkdir tipsy && cd tipsy
 repo init the branch you want
 repo sync -j4 
 ```
