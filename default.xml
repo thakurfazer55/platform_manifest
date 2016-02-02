@@ -37,6 +37,9 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="tipsy" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
+
   <!-- Tipsy Additions  -->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
@@ -355,8 +358,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="aospb" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
