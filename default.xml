@@ -33,7 +33,10 @@
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
@@ -41,12 +44,9 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
 
   <!-- Tipsy Additions  -->
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
   <project path="packages/apps/SnapdragonCamera" name="TipsyOs/android_packages_apps_SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
 
   <!-- Telephony -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy" />
