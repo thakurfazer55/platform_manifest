@@ -568,8 +568,7 @@
 
   <!-- New Additions for Tipsy -->
   <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="lp5.1" />
-  <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="to" revision="lp5.1" />
-  <project name="mikeNG/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-13.0" />
 
   <!-- Tipsy Scripts -->
   <project path="script" name="BuildScripts" remote="to" revision="master" >
@@ -594,11 +593,11 @@
   
   <!-- Uber Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="UBERTC/arm-eabi-5.3" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="UBERTC/arm-linux-androideabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UBERTC/arm-linux-androideabi-5.3" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.2-kernel" name="UBERTC/aarch64-linux-android-5.2-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
   <!-- Sabermod Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="martinusbe/arm-eabi-4.8" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="martinusbe/arm-eabi-4.9" remote="bb" revision="sabermod" />
