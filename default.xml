@@ -40,6 +40,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
   <project path="system/bt" name="system_bt" remote="tipsy" />
+  <project path="system/media" name="system_media" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tipsy" />
@@ -501,7 +502,6 @@
   <project path="system/extras" name="system_extras" remote="aospb" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="system_keymaster" remote="aospb" />
-  <project path="system/media" name="system_media" remote="aospb" />
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
   <project path="system/security" name="system_security" remote="aospb" />
