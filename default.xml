@@ -14,6 +14,10 @@
   <remote  name="tipsy"
            fetch="https://github.com/TipsyOs"
            revision="6.0" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/cyanogenmod"
+           review="review.cyanogenmod.org" />
 
   <remote name="bb"
            fetch="https://bitbucket.org/" />
@@ -74,6 +78,11 @@
   <project path="hardware/ril" name="hardware_ril" remote="tipsy" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="tipsy" revision="6.0-caf" />
 
+  <!-- CM -->
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-13.0" />
+  
   <!-- CMHW -->
   <project path="frameworks/opt/hardware" name="SlimRoms/frameworks_opt_hardware" remote="github" revision="mm6.0" />
   <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
@@ -114,9 +123,6 @@
   <project path="external/android-visualizer" name="external_android-visualizer" remote="aospb" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospb" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospb" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospb" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-http" name="external_apache-http" remote="aospb" />
