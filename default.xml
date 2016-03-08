@@ -40,6 +40,8 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
   <project path="system/bt" name="system_bt" remote="tipsy" />
+  <project path="system/core" name="system_core" remote="tipsy" />
+  <project path="system/extras" name="system_extras" remote="tipsy" />
   <project path="system/media" name="system_media" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
@@ -53,6 +55,8 @@
   <project path="packages/apps/SnapdragonCamera" name="TipsyOs/android_packages_apps_SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-13.0" />
+  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" remote="github" revision="cm-13.0" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tipsy" />
 
   <!-- Telephony -->
@@ -389,7 +393,6 @@
   <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="aospb" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospb" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
   <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="aospb" />
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8916" />
@@ -501,10 +504,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/core" name="system_core" remote="aospb" />
-  <project path="system/extras" name="system_extras" remote="aospb" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
-  <project path="system/keymaster" name="system_keymaster" remote="aospb" />
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
   <project path="system/security" name="system_security" remote="aospb" />
