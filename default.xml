@@ -39,6 +39,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tipsy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
@@ -58,7 +59,6 @@
 
   <!-- Tipsy Additions  -->
   <project path="packages/apps/SnapdragonCamera" name="TipsyOs/android_packages_apps_SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-13.0" />
   <project path="system/keymaster" name="android_system_keymaster" remote="cm" revision="cm-13.0" />
