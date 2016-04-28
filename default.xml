@@ -42,6 +42,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tipsy" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tipsy"  />  
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tipsy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
@@ -73,7 +74,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="tipsy" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="tipsy" revision="6.0-caf" />
 
- <!-- SLIM -->
+  <!-- SLIM -->
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="slim" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="slim" />
@@ -373,7 +374,6 @@
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="slim" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slim" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
