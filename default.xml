@@ -107,6 +107,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="slim" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" />
