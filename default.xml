@@ -44,6 +44,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tipsy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tipsy" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tipsy"  />  
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tipsy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
@@ -110,7 +111,6 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" />
