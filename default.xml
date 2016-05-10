@@ -55,6 +55,9 @@
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
+  <project path="OTA_config" name="OTA_config" remote="tipsy" revision="master" >
+      <copyfile src="ota_conf" dest="ota_conf" />
+  </project>
 
   <!-- Tipsy Additions  -->
   <project path="packages/apps/SnapdragonCamera" name="TipsyOs/android_packages_apps_SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
