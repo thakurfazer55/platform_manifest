@@ -41,7 +41,6 @@
   </project>
   <project path="bionic" name="android_bionic" remote="tipsy" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tipsy" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="tipsy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="tipsy" />
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
@@ -90,6 +89,7 @@
 
   <!-- SLIM -->
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="slim" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="slim" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="slim" />
