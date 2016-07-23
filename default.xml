@@ -127,7 +127,7 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
-  <project path="packages/apps/CarrierConfig" name="SlimRoms/packages_apps_CarrierConfig" remote="slim" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="slim" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" />
