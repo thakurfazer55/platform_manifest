@@ -54,7 +54,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
-  <project path="system/core" name="android_system_core" remote="tipsy" /><project path="system/core" name="android_system_core" remote="tipsy" />
+  <project path="system/core" name="android_system_core" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
   <!-- OTA -->
