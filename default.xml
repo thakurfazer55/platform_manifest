@@ -104,6 +104,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
   <project path="external/fuse" name="android_external_fuse" remote="slim" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="slim" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="slim" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
@@ -264,7 +265,6 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
