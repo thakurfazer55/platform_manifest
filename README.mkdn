@@ -9,6 +9,7 @@ Getting Started
 To get started with Tipsy, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
+Just a little fyi: 6.0 branch is now containing OMS patches and stable playground, and is substratum ready; oms branch is now the oms+testing playground; beware of the dragons!
 
 To initialize your local repository using the TipsyOs trees, use this command:
 
@@ -19,7 +20,9 @@ To initialize your local repository using the TipsyOs trees, use this command:
 
 Then sync up with this command:
 
-	repo sync
+	repo sync -j4
+	
+	(once your local manifest is added for devices, or once u have brunched an official device; u may need to force the sync a bit by using $ repo sync --force-sync command)
 
 
 Setting up your build environment for Ubuntu/Mint
@@ -90,7 +93,7 @@ Initialize TipsyOs build environment:
 
 Open Terminal
 ```
-mkdir tipsy && cd tipsy
+mkdir -p tipsy && cd tipsy
 repo init the branch you want
 repo sync -j4 
 ```
@@ -115,5 +118,5 @@ lunch
 Choose your device
 make tipsy -j#
 ```
-Have Fun!!
+Have Fun and be Tipsy!!
 ----------
