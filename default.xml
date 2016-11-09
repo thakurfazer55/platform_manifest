@@ -569,14 +569,12 @@
 
     <!-- Uber Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-uber" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-uber" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="DespairFactor/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="DespairFactor/aarch64-linux-android-5.x-kernel" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel" name="DespairFactor/aarch64-linux-android-6.x-kernel" remote="bb" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel" name="DespairFactor/aarch64-linux-android-7.0-kernel" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="mdalexca/arm-eabi-4.9" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-uber" name="mdalexca/arm-eabi-5.x" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-uber" name="mdalexca/arm-linux-androideabi-5.x" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="mdalexca/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="mdalexca/aarch64-linux-android-5.x-kernel" remote="bb" revision="master" clone-depth="1" />
 
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="slim" />
