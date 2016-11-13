@@ -9,12 +9,10 @@ Getting Started
 To get started with Tipsy, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
-Just a little fyi: 6.0 branch is now containing OMS patches and stable playground, and is substratum ready; oms branch is now the oms+testing playground; beware of the dragons!
-
 To initialize your local repository using the TipsyOs trees, use this command:
 
 
-	repo init -u git://github.com/TipsyOs/platform_manifest.git -b 6.0
+	repo init -u git://github.com/TipsyOs/platform_manifest.git -b n7.1
 
 
 
@@ -33,9 +31,9 @@ Prepare your Java environment
 In terminal:
 ------------
 ```
-sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
+sudo apt-get purge openjdk-\* icedtea-\* icedtea7-\*
 sudo apt-get update
-sudo apt-get install openjdk-7-jdk
+sudo apt-get install openjdk-8-jdk
 ```
 Check your version: 
 ```
@@ -43,13 +41,15 @@ java -version
 ```
 Should see something similar too:
 ```
-java version "1.7.0_65"
-OpenJDK Runtime Environment (IcedTea 2.5.3)
-OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)
+java version "1.8.0_111"
+Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
+
 ```
 Install some required tools:
 ----------------------------
 ```
+TO BE UPDATED SOON.
 sudo apt-get install git-core gnupg ccache lzop flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev lib32ncurses5 lib32z1 lib32bz2-1.0 lib32ncurses5-dev x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z-dev libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc readline-common libreadline6-dev libreadline6 lib32readline-gplv2-dev libncurses5-dev lib32readline5 lib32readline6 libreadline-dev libreadline6-dev:i386 libreadline6:i386 bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool libwxgtk2.8-dev python
 ```
 If you come into any errors:
