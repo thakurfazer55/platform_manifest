@@ -3,7 +3,7 @@ Welcome to TipsyOs
 
 This is a testing grounds, proceed with caution
 
-Thus is Slim 7.1 as a base coming in; we just started it; so don't sync and build that yet please, be patient.
+Thus is Slim 7.1 as a base +OMS testing; we just started it; so don't sync and build that yet please, be patient.
 
 Getting Started
 ---------------
@@ -14,7 +14,7 @@ To get started with Tipsy, you'll need to get familiar with
 To initialize your local repository using the TipsyOs trees, use this command:
 
 
-	repo init -u git://github.com/TipsyOs/platform_manifest.git -b n7.1
+	repo init -u git://github.com/TipsyOs/platform_manifest.git -b oms-n7.1
 
 
 
