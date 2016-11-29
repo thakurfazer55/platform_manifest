@@ -70,11 +70,11 @@
   <!-- OMS needs  -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
-  <!-- OTA
-  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
-  <project path="OTA_config" name="OTA_config" remote="tipsy" revision="master" >
+  <!-- OTA -->
+  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" revision="n7.1" />
+  <project path="OTA_config" name="OTA_config" remote="tipsy" revision="n7.1" >
       <copyfile src="ota_conf" dest="ota_conf" />
-  </project> -->
+  </project>
 
   <!-- Kernel Adiutor
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
