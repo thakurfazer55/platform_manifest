@@ -139,6 +139,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="slim" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="slim" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" />
+  <project path="packages/apps/Tavern" name="packages_apps_Tavern" remote="tipsy" revision="n7.1" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" />
