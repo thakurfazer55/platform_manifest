@@ -38,6 +38,7 @@
   <project path="manifest" name="platform_manifest" remote="tipsy" revision="testing" />
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="testing" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="testing" />
+  <project path="packages/apps/Tavern" name="packages_apps_Tavern" remote="tipsy" revision="testing" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" revision="testing" />
  
   <!-- Tipsy stuff -->
@@ -142,7 +143,6 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="slim" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="slim" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" />
-  <project path="packages/apps/Tavern" name="packages_apps_Tavern" remote="tipsy" revision="n7.1" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" />
