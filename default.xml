@@ -662,6 +662,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel" name="DespairFactor/aarch64-linux-android-6.x-kernel" remote="bb" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel" name="DespairFactor/aarch64-linux-android-7.0-kernel" remote="bb" revision="master" clone-depth="1" /> -->
 
-
+  <!-- Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" revision="master" />
 
 </manifest>
