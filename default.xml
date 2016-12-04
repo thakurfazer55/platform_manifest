@@ -68,7 +68,7 @@
   <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="tesla" /> 
  
   <!-- OMS needs  -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" revision="n7.1" />
