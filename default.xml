@@ -37,6 +37,7 @@
   <!-- Testing repo's -->
   <project path="manifest" name="platform_manifest" remote="tipsy" revision="testing" />
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="testing" />
+  <project path="frameworks/native" name="frameworks_native" remote="tipsy" revision="testing" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="testing" />
   <project path="packages/apps/Tavern" name="packages_apps_Tavern" remote="tipsy" revision="testing" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" revision="testing" />
@@ -50,7 +51,6 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="tipsy" />
   <!--<project path="external/sepolicy" name="android_external_sepolicy" remote="tipsy" />-->
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" /> 
-  <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="frameworks/opt/slim" name="frameworks_opt_slim" remote="tipsy" />
   <!--<project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />-->
   <!--<project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tipsy" />-->
