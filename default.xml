@@ -59,7 +59,7 @@
   <!--<project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tipsy" />-->
   <!--<project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />-->
   <project path="packages/apps/SlimWallpapers" name="packages_apps_SlimWallpapers" remote="tipsy" />
-  <!--<project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />-->
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <!--<project path="system/core" name="android_system_core" remote="tipsy" />-->
   <project path="system/sepolicy" name="android_system_sepolicy" remote="tipsy" />
 
@@ -144,7 +144,6 @@
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="slim" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slim" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" />
