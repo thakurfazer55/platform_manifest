@@ -24,7 +24,7 @@
 
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
-           revision="n7.1" /> 
+           revision="n7.1.1" /> 
 
   <remote name="bb"
            fetch="https://bitbucket.org/" />
@@ -62,6 +62,10 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <!--<project path="system/core" name="android_system_core" remote="tipsy" />-->
   <project path="system/sepolicy" name="android_system_sepolicy" remote="tipsy" />
+  
+  <!-- LockClock -->
+  <project path="external/google" name="external_google" remote="tesla" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" /> 
 
   <!-- Kernel Adiutor  -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="tesla" />
