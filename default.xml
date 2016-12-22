@@ -39,6 +39,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="testing" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" revision="testing" />
   <project path="frameworks/opt/slim" name="frameworks_opt_slim" remote="tipsy" revision="testing" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="tipsy" revision="testing" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="testing" />
   <project path="packages/apps/Tavern" name="packages_apps_Tavern" remote="tipsy" revision="testing" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" revision="testing" />
@@ -94,8 +95,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="tipsy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tipsy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tipsy" /> -->
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="tipsy" />
-
+  
   <!-- Ril
   <project path="hardware/ril" name="hardware_ril" remote="tipsy" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="tipsy" revision="6.0-caf" /> -->
