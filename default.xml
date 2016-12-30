@@ -99,9 +99,12 @@
   <!-- SLIM -->
   <project path="art" name="android_art" remote="slim" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
+  <project path="external/aac" name="android_external_aac" remote="slim" />
   <project path="external/apache-http" name="android_external_apache-http" remote="slim" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
+  <project path="external/flac" name="android_external_flac" remote="slim" />
+  <project path="external/icu" name="android_external_icu" groups="pdk" remote="slim" />
   <project path="external/ipsec-tools" name="android_external_ipsec-tools" remote="slim" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
@@ -109,6 +112,7 @@
   <project path="external/skia" name="android_external_skia" remote="slim" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slim"/>
   <project path="external/tinycompress" name="android_external_tinycompress" remote="slim" />
+  <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" remote="slim" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="slim" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slim" />
@@ -247,7 +251,6 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -305,7 +308,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fec" name="platform/external/fec" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -327,7 +329,6 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" remote="aosp" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
@@ -462,7 +463,6 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
-  <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/tlsdate" name="platform/external/tlsdate" remote="aosp" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tpm2" name="platform/external/tpm2" remote="aosp" />
