@@ -51,7 +51,8 @@
   <project path="bionic" name="android_bionic" remote="tipsy" />
   <project path="build/kati" name="build_kati" remote="tipsy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="tipsy" />
-  <project path="frameworks/av" name="frameworks_av" remote="tipsy" /> 
+  <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
+  <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="tipsy" />
   <project path="packages/apps/SlimWallpapers" name="packages_apps_SlimWallpapers" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="tipsy" />
