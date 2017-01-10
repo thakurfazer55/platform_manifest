@@ -49,6 +49,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
   <project path="packages/apps/SlimWallpapers" name="packages_apps_SlimWallpapers" remote="tipsy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
@@ -123,7 +124,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="slim" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="slim" />
