@@ -59,6 +59,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
+  <project path="system/core" name="android_system_core" remote="tipsy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="tipsy" />
   
   <!-- LockClock -->
@@ -145,7 +146,6 @@
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="slim" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="slim" />
   <project path="system/bt" name="android_system_bt" remote="slim" />
-  <project path="system/core" name="android_system_core" remote="slim" />
   <project path="system/extras" name="android_system_extras" remote="slim" />
   <project path="system/keymaster" name="android_system_keymaster" remote="slim" />
   <project path="system/media" name="android_system_media" remote="slim" />
