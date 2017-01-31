@@ -80,13 +80,13 @@
   </project>
 
   <!-- Telephony
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tipsy" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="tipsy" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="tipsy" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="tipsy" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tipsy" />-->
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tipsy" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="tipsy" />--->
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy" revision="testing" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tipsy" revision="testing" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tipsy" revision="testing" />
 
   <!-- SLIM -->
   <project path="art" name="android_art" remote="slim" />
