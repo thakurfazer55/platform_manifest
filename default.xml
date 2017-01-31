@@ -17,11 +17,6 @@
            fetch="https://github.com/TipsyOs"
            revision="n7.1" />
 
-  <remote  name="cm"
-           fetch="https://github.com/cyanogenmod"
-           review="review.cyanogenmod.org"
-           revision="cm-14.1" />
-
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
            revision="n7.1.1" /> 
